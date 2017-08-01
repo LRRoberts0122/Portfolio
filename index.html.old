@@ -1,0 +1,71 @@
+<!doctype html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="x-ua-compatible" content="ie=edge">
+        <title>Lindsay Roberts - Software Designer</title>
+        <meta name="description" content="">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+
+        <link rel="apple-touch-icon" href="apple-touch-icon.png">
+        <!-- Place favicon.ico in the root directory -->
+
+        <link rel="stylesheet" href="assets/css/normalize.css" />
+        <link rel="stylesheet" href="assets/css/grid.css" />
+        <link rel="stylesheet" href="assets/css/screen.css" />
+        <link rel="stylesheet" href="assets/css/main.css" />
+    </head>
+    <body>
+        <!--[if lte IE 9]>
+            <p class="browserupgrade">You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade your browser</a> to improve your experience and security.</p>
+        <![endif]-->
+
+        <div class="row">
+            <!-- LEFT COLUMN -->
+            <div class="col content">
+              <header>
+                <img src="assets/images/logo.svg" alt="Welcome to Lindsay Roberts's portfolio website." id="logo"/>
+              </header>
+
+              <section id="about">
+                <h1>Software Designer</h1>
+                <h2>Lindsay Roberts</h2>
+                <p>
+                  Hi! I'm Lindsay. How's it going?<br />
+                  I'm a free spirited designer / developer hybrid, living in the Los Angeles area. Find me on <a href="#">LinkedIn</a>.
+                </p>
+                <p>
+                  Currently, I'm a software designer at <a href="#">IBM</a>. My superpower is <strong>empathy</strong>. What's yours?
+                </p>
+
+                <button>Download resume</button>
+              </section>
+            </div>
+
+            <!-- RIGHT COLUMN -->
+            <div class="col sidebar">
+              <section id="main-nav">
+                <div class="nav-links">
+                  <a href="#research" class="navigation" id="research-link">Research</a>
+                  <a href="#ux" class="navigation" id="ux-link">User Experience</a>
+                  <a href="#design" class="navigation" id="design-link">Visual Design</a>
+                  <a href="#development" class="navigation" id="development-link">Development</a>
+                  <a href="https://github.com/LRRoberts0122" class="navigation" id="code-link">Code Samples</a>
+                </div>
+              </section>
+
+            </div>
+        </div>
+        <!-- <script src="https://code.jquery.com/jquery-{{JQUERY_VERSION}}.min.js" integrity="{{JQUERY_SRI_HASH}}" crossorigin="anonymous"></script>
+        <script>window.jQuery || document.write('<script src="js/vendor/jquery-{{JQUERY_VERSION}}.min.js"><\/script>')</script>
+        <script src="js/plugins.js"></script>
+        <script src="js/main.js"></script> -->
+
+        <!-- Google Analytics: change UA-XXXXX-Y to be your site's ID. -->
+        <!-- <script>
+            window.ga=function(){ga.q.push(arguments)};ga.q=[];ga.l=+new Date;
+            ga('create','UA-XXXXX-Y','auto');ga('send','pageview')
+        </script>
+        <script src="https://www.google-analytics.com/analytics.js" async defer></script> -->
+    </body>
+</html>

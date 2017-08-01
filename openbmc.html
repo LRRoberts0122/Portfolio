@@ -1,0 +1,56 @@
+<!doctype html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="x-ua-compatible" content="ie=edge">
+        <title>Lindsay Roberts - Software Designer</title>
+        <meta name="description" content="">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+
+        <link rel="apple-touch-icon" href="apple-touch-icon.png">
+        <!-- Place favicon.ico in the root directory -->
+
+        <link rel="stylesheet" href="assets/css/normalize.css" />
+        <link rel="stylesheet" href="assets/css/grid.css" />
+        <link rel="stylesheet" href="assets/css/screen.css" />
+        <link rel="stylesheet" href="assets/css/main.css" />
+    </head>
+    <body>
+      <header>
+        <div>
+          <img id="logo" class="small" src="assets/images/logo.svg" alt="Welcome to Lindsay Roberts' portfolio website." />
+          <!-- <p>Lindsay Roberts</p> -->
+        </div>
+
+        <div class="menu visible">
+          <a href="index.html">Portfolio</a>
+          <a href="assets/resume.pdf" target="_blank">Resume</a>
+        </div>
+      </header>
+
+      <a href="monocle.html" class="back arrow">➔</a>
+      <a href="mannacloud.html" class="next arrow">➔</a>
+
+      <article id="openbmc" class="caseStudy">
+        <h1>Open BMC</h1>
+        <h2>Research, UX/UI Design, Front-End Development</h2>
+
+        <h3>Overview</h3>
+        <p>
+          OpenBMC was a side project I helped pioneer shortly after project Monocle. I worked with the Head of Engineering for Power Systems to develop a GUI that would allow system administrators to interact with their Baseboard Management Controllers. (These are chips that manage the server’s memory, fans, power supply, etc.)
+        </p><p>
+          The OpenBMC app provided simplified management of the server’s environment, inventory, sensors, and event logs. An open-source API allowed me to connect to the BMC via the D-Bus. Over the course of four weeks, I worked closely with engineers to produce a design that would allow users to effectively manage various endpoints for their BMC. I went through several wireframes, before moving on to mockups, and finally, the finished prototype.
+        </p><p>
+          In April 2016, the OpenBMC was presented at the OpenPOWER Summit in San Jose, California. The overwhelming response prompted IBM to continue pursuing opportunities in this problem space. OpenBMC went on to be the second project that received its own dedicated team and resources within Power Systems that I worked on.
+        </p>
+        <img src="assets/images/open_bmc/interface.png" />
+        <img src="assets/images/open_bmc/wireframes_v1.png" />
+        <img src="assets/images/open_bmc/wireframes_v2.png" />
+        <img src="assets/images/open_bmc/design.png" />
+        <img src="assets/images/open_bmc/methods.png" />
+        <img src="assets/images/open_bmc/open_bmc.png" />
+      </article>
+
+      <script src="assets/js/main.js" /></script>
+    </body>
+</html>
