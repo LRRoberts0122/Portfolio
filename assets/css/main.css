@@ -1,0 +1,198 @@
+/* Layout */
+body {
+  background: rgb(20, 20, 20);
+  color: rgb(255, 255, 255);
+
+  display: flex;
+  flex-direction: column;
+  flex-wrap: nowrap;
+
+  padding: 0px 15%;
+  font-family: "Myriad Pro", Helvetica, sans-serif;
+  position: relative;
+}
+
+.content {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+}
+
+/* Typography */
+h1 {
+  font-size: 2em;
+  font-weight: 800;
+  margin: 20px 0px;
+}
+
+h2 {
+  font-size: 1.1em;
+  font-weight: 400;
+}
+
+h3 {
+  font-size: 1.1em;
+  font-weight: 800;
+}
+
+p {
+  font-size: 0.9em;
+  line-height: 2.5em;
+}
+
+a {
+  font-size: 0.9em;
+  font-weight: 800;
+  text-decoration: none;
+
+  color: #fff;
+  background: none;
+  border: none;
+  border-bottom: 2px solid #fff;
+
+  padding: 0;
+  padding-bottom: 3px;
+}
+
+#about p {
+  max-width: 340px;
+}
+
+/* Elements */
+.arrow {
+  position: fixed;
+  bottom: 48%;
+  border: 1px solid rgba(255, 255, 255, 0.2);
+  padding: 30px 20px;
+}
+
+.back {
+  left: 0;
+
+  -moz-transform: scale(-1, 1);
+  -webkit-transform: scale(-1, 1);
+  -o-transform: scale(-1, 1);
+  -ms-transform: scale(-1, 1);
+  transform: scale(-1, 1);
+}
+
+.next {
+  right: 0;
+}
+
+#logo {
+  width: 12%;
+  margin: 8% 0%;
+  cursor: pointer;
+}
+
+#logo.small {
+  width: 5%;
+  float: left;
+  min-height: 30px;
+}
+
+.menu {
+  display: none;
+}
+
+.menu a {
+  font-size: 0.9em;
+  display: inline-block;
+  margin: 5px 15px;
+}
+
+.menu.visible {
+  display: block;
+  float: right !important;
+  margin-top: 8% !important;
+}
+
+button {
+  font-size: 0.9em;
+  font-weight: 800;
+
+  color: #fff;
+  background: none;
+  border: none;
+  border-bottom: 2px solid #fff;
+
+  padding: 0;
+  padding-bottom: 3px;
+}
+
+button:hover {
+  cursor: pointer;
+}
+
+/*  About Section */
+#about p:first-of-type {
+  margin-top: 3em;
+}
+
+/* Project List */
+#projects {
+  margin-left: auto;
+}
+.project:first-of-type {
+  border-top: 1px solid rgba(255, 255, 255, 0.1);
+  margin-top: 18px;
+}
+.project {
+  border-bottom: 1px solid rgba(255, 255, 255, 0.1);
+  padding: 24px 0px;
+  transition: all 0.5s ease;
+  color: #fff;
+  padding-right: 80px;
+}
+
+.project h3,
+.project p {
+  margin: 0;
+  padding: 0;
+}
+
+#projects:hover .project {
+  color: rgba(255, 255, 255, 0.1);
+  transition: all 0.5s ease;
+}
+
+#projects:hover .project:hover {
+  color: #FFF;
+  cursor: pointer;
+}
+
+
+/* Modal */
+.modal {
+  display: none;
+  position: absolute;
+  top: 30%;
+  background: rgb(20, 20, 20);
+  max-width: 70%;
+  padding-bottom: 100px;
+}
+
+.modal h3 {
+  margin-top: 4em;
+}
+
+.caseStudy {
+  padding-bottom: 10%;
+}
+
+.caseStudy h3 {
+  margin-top: 4em;
+}
+
+.caseStudy img {
+  max-width: 80%;
+  display: block;
+  margin: 120px auto;
+  image-orientation: from-image;
+}
+
+.screenshots {
+  width: 24% !important;
+  display: inline-block !important;
+}
